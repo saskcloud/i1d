@@ -24,8 +24,7 @@
      left: 0;
      z-index: 100;
 }
-
-@media (min-width: 840px)
-.close__icon[data-v-c245e39e] {
+*/ fullscreen img close button */
+.close__icon {
   fill: #ddd !important;
 }
