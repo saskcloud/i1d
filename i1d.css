@@ -1,4 +1,17 @@
 /* prod fullscreen img */
 .lightbox {
-  background-color: #000 !important;
+     background-color: #000 !important;
+}
+/* preload anti-flashbang */
+ .loading-view {
+     background-color:black;
+     width: 100vw;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: 100;
 }
