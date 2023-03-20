@@ -41,3 +41,8 @@
 background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(247,231,51,1) 32%, rgba(186,70,70,1) 64%, rgba(11,10,9,1) 97%);
   border-radius: 10px;
 }
+/* Mail-list button */
+.leadform-anchored-trigger.js-toggle-button.js-anchor-button.is-open {
+    background-color: rgb(186 70 70);
+    --darkreader-inline-bgcolor: #000000;
+}
