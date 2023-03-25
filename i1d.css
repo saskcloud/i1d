@@ -33,16 +33,31 @@ body {
 }
 /* scrollbar */
 ::-webkit-scrollbar {
-  width: 4px;
+    width: 12px;
 }
+
 ::-webkit-scrollbar-track {
-  background: #000;
-  border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
 }
-::-webkit-scrollbar-thumb-vertical {
-  background: rgb(0,0,0);
-background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(247,231,51,1) 32%, rgba(186,70,70,1) 64%, rgba(11,10,9,1) 97%);
-  border-radius: 10px;
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(180deg,
+    rgba(255,255,255,1) 0%,
+    rgba(247,231,51,1) 32%,
+    rgba(186,70,70,1) 64%,
+    rgba(11,10,9,1) 97%);
+}
+
+#loading-bar {
+    width: 100%;
+    height: 5px;
+    background-color: #888;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: fixed;
+    top: 0;
 }
 /* Mail-list button */
 .leadform-anchored-trigger.js-toggle-button.js-anchor-button.is-open {
