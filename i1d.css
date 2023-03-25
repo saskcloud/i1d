@@ -45,3 +45,12 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(247,231,51,1) 3
 .leadform-anchored-trigger.js-toggle-button.js-anchor-button.is-open {
     background-color: #ba4646;
 }
+/* bottom portion of the horizontal scrollbar */
+::-webkit-scrollbar:horizontal:last-child {
+  background-color: #ddd;
+}
+
+/* bottom portion of the vertical scrollbar */
+::-webkit-scrollbar:vertical:last-child {
+  background-color: #ddd;
+}
