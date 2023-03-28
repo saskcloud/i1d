@@ -33,16 +33,16 @@ body {
 }
 /* scrollbar */
 ::-webkit-scrollbar {
-    width: 12px;
+    width: px;
 }
 
 ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    border-radius: 10px;
+    border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb {
-    border-radius: 10px;
+    border-radius: 4px;
     background-image: -webkit-linear-gradient(222deg,rgba(255,255,255,1) 0%,rgba(247,231,51,1) 32%,rgba(186,70,70,1) 64%,rgba(11,10,9,1) 97%);
 }
 
