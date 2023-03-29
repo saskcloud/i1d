@@ -33,7 +33,7 @@ body {
 }
 /* scrollbar */
 ::-webkit-scrollbar {
-    width: px;
+    width: 4px;
 }
 
 ::-webkit-scrollbar-track {
@@ -43,7 +43,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
     border-radius: 4px;
-    background-image: -webkit-linear-gradient(222deg,rgba(255,255,255,1) 0%,rgba(247,231,51,1) 32%,rgba(186,70,70,1) 64%,rgba(11,10,9,1) 97%);
+    background-image: -webkit-linear-gradient(222deg, rgba(255,255,255,1) 0%, rgba(247,231,51,1) 32%, rgba(186,70,70,1) 64%, rgba(11,10,9,1) 97%);
 }
 
 ::-webkit-scrollbar-corner {
