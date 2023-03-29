@@ -60,6 +60,10 @@ body {
     top: 0;
 }
 /* Mail-list button */
-.leadform-anchored-trigger.js-toggle-button.js-anchor-button.is-open {
-    background-color: #ba4646;
+.lead-form-anchored-trigger-icon, .leadform--anchored .leadform-widget-container.anchored_sidebar .leadform-anchored-trigger {
+  width: 50px;
+  height: 50px;
+  background: #ba4646 url("//p.weebly.com/lead-form/email-icon.png") center no-repeat;
+  z-index: 999;
+  cursor: pointer;
 }
